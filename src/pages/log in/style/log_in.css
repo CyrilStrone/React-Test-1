@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.App {
+    background: linear-gradient(90.36deg, #5C4DC1 0.19%, #9387E2 99.6%);
+}
+
+.LogIn_block {
+    width: 1000px;
+    height: 450px;
+    background: linear-gradient(90.27deg, #7969E6 0.22%, #7969E6 99.77%);
+    border-radius: 10px;
+    padding: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.LogIn_block_input {
+    padding-bottom: 35px;
+    box-sizing: border-box;
+}
+
+.LogIn_block_input input {
+    padding-left: 15px;
+    width: 950px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 35px;
+}
+
+.LogIn_block_input:last-child {
+    padding-bottom: 0px;
+}
+
+.LogIn_block_input_h1 {
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.LogIn_block_buttons {
+    position: absolute;
+    bottom: 25px;
+}
+
+.LogIn_block_button {
+    display: inline-block;
+}
+
+.LogIn_block_button {
+    padding-right: 30px;
+}
+
+.LogIn_block_button button {
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    height: 70px;
+    border: 3px solid #FFFFFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.btn_login {
+    background: #5445B8;
+}
+
+.btn_signup {
+    background: #7A60F6;
+}
+
+.LogIn_block_button_block_h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
